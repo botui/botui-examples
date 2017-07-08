@@ -1,0 +1,28 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+  font-family: 'Open Sans';
+}
+
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.examples {
+  margin: 30px 0 0;
+}
+
+a {
+  color: #27a5a5;
+  margin: 10px 0;
+}
+
+a:visited {
+  color: #ccc;
+}
+
+.examples a {
+  display: block;
+  font-size: 16px;
+}
