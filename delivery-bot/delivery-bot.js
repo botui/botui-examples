@@ -41,7 +41,8 @@ var askAddress = function () {
       return botui.action.text({
         delay: 1000,
         action: {
-          size: 70,
+          size: 30,
+          icon: 'map-marker',
           value: address, // show the saved address if any
           placeholder: 'Address'
         }
